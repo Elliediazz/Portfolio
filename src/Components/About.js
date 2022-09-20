@@ -26,6 +26,11 @@ export default function About (){
             modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam 
             totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam 
             quasi aliquam eligendi, placeat qui corporis!
+
+
+            *****Resume:
+            *****Github
+            *****LinkedIn
             </p>
         </div>
     )
