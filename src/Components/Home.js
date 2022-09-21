@@ -6,23 +6,22 @@ import PDF from "../Styling/Resume.pdf"
 
 export default function Home(){
     return(
-      <div className="bg-color">
-        <div className="home-flex-container">
+      <div className="all">
+        <div className="home-flex-container shadow">
             <div className="home">
               <h4 className="greeting">Welcome, my name is </h4>
               <h1 className="name">Ellie Barrera</h1>
-              <div className="shadow home-content-div">
+              <div className="home-content-div">
               <p className="home-content"> Im a Junior Software Developer seeking 
                   to pursue an opportunity with a growing organization that will 
                   utilize and enhance my knowledge in software development
               </p>
-              <p className="home-content"> Im a Junior Software Developer seeking 
-                  to pursue an opportunity with a growing organization that will 
-                  utilize and enhance my knowledge in software development
+              <p className="home-content"> I graduated with a Bachelor of Science in 
+                  Physics from the University of Wisconsin - Oshkosh and Decided to 
+                  further pursue my interest in Software Developement by attending a 
+                  Certificate Program from the University of Wisconsin - Madison.
               </p>
-              <p className="home-content"> Im a Junior Software Developer seeking 
-                  to pursue an opportunity with a growing organization that will 
-                  utilize and enhance my knowledge in software development
+              <p className="home-content"> Keep reading to checkout some of the projects I have worked on!
               </p>
               </div>
             </div>
@@ -30,17 +29,20 @@ export default function Home(){
         </div>
     <br></br>
     <br></br>
-        <div className="about-flex-container" id="about-page">
+        <div className="about-flex-container shadow" id="about-page">
             <div className="about-main-div">
-                <p className="about shadow">
-                    I am an experienced project engineer with comprehensive 
-                    analytical skills and knowledge of innovative design 
-                    and application development. A versatile developer 
-                    with experience across multiple development stacks 
-                    looking for a position that incorporates critical thinking, 
-                    problem-solving, and leadership skills while enhancing my 
-                    expertise in software development, which will provide me 
-                    with essential growth opportunities.
+                <h1>Heres a little about me!</h1>
+                <p className="about"> I graduated with a Bachelor of Science in 
+                  Physics from the University of Wisconsin - Oshkosh and decided to 
+                  further pursue my interest in Software Developement by attending an  
+                  intensive Certificate Program from the University of Wisconsin - Madison.
+                </p>
+                <p className="about">
+                  I am looking for a challenge. The biggest reason why I am looking to 
+                  emerge into the Tech industry is the constant, ever changing dynamic of 
+                  the field. I am a person that seeks a thrill and a challenge where ever I go 
+                  and that is precisely what I hope to find in my next role. I am excited to 
+                  learn and to be better as I navigate through my journey in the Tech industry.
                 </p>
             </div>
             <div className="button-container">
@@ -64,7 +66,7 @@ export default function Home(){
     <br></br>
     <br></br>
         <div className="experience-flex-container" id="experience-page">
-          <div className="summary shadow">
+          <div className="summary">
             <h2>
                 Although my Professional expereince has been centered around 
                 Mechanical Engineering as a Project Engineer, I have recently 
@@ -154,9 +156,9 @@ export default function Home(){
         </div>
     <br></br>
     <br></br>
-        <div className="project-flex-container" id="projects-page">
-            <h1 className="shadow title">My Projects</h1>
-            <div className="project shadow">
+        <div className="project-flex-container shadow" id="projects-page">
+            <h1 className="shadow title">Projects made by Me</h1>
+            <div className="project">
               <h2 className="project-title">JediBook</h2>
                 <h4>
                   <a target="_blank" rel="noopener noreferrer" href= "https://github.com/Elliediazz/JediBook-Client" >
@@ -175,7 +177,7 @@ export default function Home(){
                 Node.js, Mongoose, Mongo DB, SWAPI
               </h4>
             </div>
-            <div className="project shadow">
+            <div className="project">
               <h2 className="project-title">CDEV Quizzes</h2>
                 <h4>
                   <a className="links" target="_blank" rel="noopener noreferrer" href= "https://github.com/Elliediazz/CDEV-Quizzes-Client" >
@@ -195,12 +197,14 @@ export default function Home(){
         </div>
     <br></br>
     <br></br>
-        <div className="contact-flex-container" id="contact-page">
-            <h2 className="shadow contact">Feel free to contact me if you have any questions 
-                or opportunities that may fit my skill set! Thank you:) 
+        <div className="contact-flex-container shadow" id="contact-page">
+            <h2 className="contact">Feel free to contact me if you have any questions 
+                or opportunities that may fit my skill set, Thank you!
             </h2>
+            <br></br>
+            <br></br>
             <h3>
-             <a href="mailto:elliediaz1204@gmail.com">Send me an Email</a>
+             <a className="email" href="mailto:elliediaz1204@gmail.com">Send me an Email</a>
             </h3>
         </div>
       </div>

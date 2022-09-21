@@ -4,9 +4,14 @@
     --secondary-text-color: #6B9080;
     --font-family: Monospace;
 }
-.bg-color{
+.all{
     background-color: var(--main-bg-color) ;
     background-size: cover;
+    font-family: var(--font-family);
+    padding-top: 70px;
+}
+.text-shadow{
+    text-shadow: 2px 2px var(--secondary-text-color);
 }
 
 /* Navbar */
@@ -15,11 +20,9 @@
     width: 8vh;
     clip-path: circle();
 }
-
 /* Home Page */
 .home-flex-container {
     color: var(--main-text-color);
-    font-family: var(--font-family);
     display: flex;
     width: 100vw;
     height: 100%;
@@ -45,7 +48,7 @@
     height: 75%;
     width: 40%;
     margin-top: 20vh;
-    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
 }
 .greeting{
     font-size: 2vw;
@@ -59,35 +62,38 @@
 /* About page */
 .about-flex-container {
     color: var(--main-text-color);
-    font-family: var(--font-family);
     display: flex;
+    flex-direction: column;
     justify-content: center; 
+    align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
 }
 .about-main-div{
     width: 50%;
-    height: 60px;
-    margin-top: 10vh;
+    height: auto;
   }
 .about{
-    text-align: center;
+    text-align: left;
     line-height: 40px;
     font-size: larger;
-    padding: 5%;
+    padding: 2%;
+    color: var(--secondary-text-color)
 }
 .button-container{
-    border: 1px whitesmoke;
-    display: flex;
-    position: absolute;
-    left: 75%;
-    top: 1400px;
+    margin: 2px;
+    position:relative;
+    text-align: center;
+    border-radius:4px;
+    text-decoration: none;
+    display:block;
+    font-size: 17px;
+    padding: 10px 10px 10px 10px;
 }
 
 /* experience page */
 .experience-flex-container{
     color: var(--main-text-color);
-    font-family: var(--font-family);
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -123,7 +129,6 @@ ul li{
 /* Projects page */
 .project-flex-container{
     color: var(--main-text-color);
-    font-family: var(--font-family);
     display: flex;
     flex-direction: row;
     width: 100vw;
@@ -132,14 +137,16 @@ ul li{
 .title{
     margin: 5%;
     padding: 8%;
-    text-align: justify;
+    text-align: center;
     text-shadow: 2px 2px var(--secondary-text-color);
     height: 50%;
+    width: 30%;
 }
 .project{
     padding: 30px;
-    margin: 1%;
-    width: 40%;
+    margin: .5%;
+    width: auto;
+    flex: 1 0 0px;
 }
 .project-title{
     font-size: 40px;
@@ -147,7 +154,7 @@ ul li{
 .project-discription{
     margin: 8px;
     padding: 2px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
 }
 .built{
@@ -189,7 +196,10 @@ a:active {
 .contact{
     height: 25%;
     width: 80%;
-    padding: 5%;
+    padding: 1%;
     margin: 1%;
     align-content: center;
+}
+.email{
+    font-size: 25px;
 }
