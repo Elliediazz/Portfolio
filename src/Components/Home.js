@@ -16,10 +16,9 @@ export default function Home(){
                   to pursue an opportunity with a growing organization that will 
                   utilize and enhance my knowledge in software development
               </p>
-              <p className="home-content"> I graduated with a Bachelor of Science in 
-                  Physics from the University of Wisconsin - Oshkosh and Decided to 
-                  further pursue my interest in Software Developement by attending a 
-                  Certificate Program from the University of Wisconsin - Madison.
+              <p className="home-content"> Some Languages, Databases and Frameworks 
+                  I have worked with include: Javascript, Python, React.js, Express, Node.js, SQL, PostgreSQL,
+                  Mongoose, and MongoDB
               </p>
               <p className="home-content"> Keep reading to checkout some of the projects I have worked on!
               </p>
@@ -157,8 +156,8 @@ export default function Home(){
     <br></br>
     <br></br>
         <div className="project-flex-container shadow" id="projects-page">
-            <h1 className="shadow title">Projects made by Me</h1>
-            <div className="project">
+            <h1 className="title">Projects made by Me</h1>
+            <div className="project shadow">
               <h2 className="project-title">JediBook</h2>
                 <h4>
                   <a target="_blank" rel="noopener noreferrer" href= "https://github.com/Elliediazz/JediBook-Client" >
