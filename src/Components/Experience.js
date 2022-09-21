@@ -4,7 +4,7 @@ import '../Styling/Components.css';
 export default function Experience() {
     return(
         <div className="experience-flex-container">
-          <div className="summary shadow">
+          <div className="summary">
             <h2>
                 Although my Professional expereince has been centered around 
                 Mechanical Engineering as a Project Engineer, I have recently 

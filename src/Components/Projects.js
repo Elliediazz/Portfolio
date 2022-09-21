@@ -4,7 +4,7 @@ import '../Styling/Components.css';
 export default function Projects() {
     return(
         <div className="project-flex-container">
-            <h1 className="shadow title">My Projects</h1>
+            <h1 className="title">Projects I've Worked On...</h1>
             <div className="project shadow">
               <h2 className="project-title">JediBook</h2>
                 <h4>

@@ -9,8 +9,8 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function NavBar() {
     return(
-        <div className='Navbar1'>
-            <Navbar bg="light" variant="light">
+        <div>
+            <Navbar bg="light" variant="light" fixed="top">
         <Container >
           <Navbar.Brand className="navbar-brand" href="/">< img src={logo} alt="Logo" className='logo'/></Navbar.Brand>
           <Nav className="me-auto">

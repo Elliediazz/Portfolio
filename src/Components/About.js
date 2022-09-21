@@ -6,7 +6,7 @@ export default function About (){
     return(
         <div className="about-flex-container">
             <div className="about-main-div">
-              <p className="about shadow">
+              <p className="about">
                 I am an experienced project engineer with comprehensive 
                 analytical skills and knowledge of innovative design 
                 and application development. A versatile developer 
