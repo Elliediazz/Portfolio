@@ -1,15 +1,29 @@
 import React from "react";
 import '../Styling/Components.css'
+import ProfilePic from "../Styling/ProfilePic.jpg";
 
 export default function Home(){
     return(
-        <div>
-            <h3>Hello! My name is </h3>
-            <h1>Ellie Barrera-Diaz</h1>
-            <p>Im a Software developer in the making! 
-                Thus far, I have specialized in building web aplications using Javascript 
-                and a little bit of Python. 
-            </p>
+        <div className="home-flex-container">
+            <div className="home">
+              <h4 className="greeting">Welcome, my name is </h4>
+              <h1 className="name">Ellie Barrera</h1>
+              <div className="shadow home-content-div">
+              <p className="home-content"> Im a Junior Software Developer seeking 
+                  to pursue an opportunity with a growing organization that will 
+                  utilize and enhance my knowledge in software development
+              </p>
+              <p className="home-content"> Im a Junior Software Developer seeking 
+                  to pursue an opportunity with a growing organization that will 
+                  utilize and enhance my knowledge in software development
+              </p>
+              <p className="home-content"> Im a Junior Software Developer seeking 
+                  to pursue an opportunity with a growing organization that will 
+                  utilize and enhance my knowledge in software development
+              </p>
+              </div>
+            </div>
+            <img className="profile" src={ProfilePic} alt="Profile"/>
         </div>
     )
 }

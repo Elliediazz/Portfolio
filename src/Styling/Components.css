@@ -1,0 +1,200 @@
+:root {
+    --main-bg-color: #2F3E46 ;
+    --main-text-color: #CAD2C5;
+    --secondary-text-color: #6B9080;
+    --font-family: Monospace;
+}
+
+/* Navbar */
+.logo {
+    height: auto; 
+    width: 8vh;
+    clip-path: circle();
+}
+/* Home Page */
+.home-flex-container {
+    background-color: var(--main-bg-color) ;
+    background-size: cover;
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh;
+}
+.home-content{
+    justify-content:center;
+    padding: 1%;
+    color: var(--secondary-text-color);
+    font-size: 1.5vw;
+    text-align:left;
+}
+.home-content-div{
+    margin-top: 5vh;
+}
+.profile {
+    clip-path: ellipse(245px 190px at 300px 290px);
+    height: 75%;
+    width: 40%;
+    margin-top: 20vh;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+}
+.greeting{
+    font-size: 2vw;
+}
+.name{
+    font-size: 5vw;
+    margin-top: 5%;
+    text-shadow: 2px 2px var(--secondary-text-color);
+}
+
+/* About page */
+.about-flex-container {
+    background-color: var(--main-bg-color) ;
+    background-size: cover;
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center; 
+    width: 100vw;
+    height: 100vh;
+}
+.about-main-div{
+    width: 50%;
+    height: 60px;
+    margin-top: 10vh;
+  }
+.about{
+    text-align: center;
+    line-height: 40px;
+    font-size: larger;
+    padding: 5%;
+}
+.button-container{
+    border: 1px whitesmoke;
+    display: flex;
+    position: absolute;
+    left: 75%;
+    top: 90%;
+}
+
+/* experience page */
+.experience-flex-container{
+    background-color: var(--main-bg-color) ;
+    background-size: cover;
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+}
+.summary{
+    width: auto;
+    height: auto;
+    margin: 10vh;
+    padding: 10px;
+    text-align: center;
+    color: var(--secondary-text-color);
+    justify-content: center;
+}
+.jobs{
+    padding: 3%;
+    margin: 1%;
+    justify-content: center;
+    height: 90%;
+}
+ul{
+    list-style: square;
+}
+ul li{
+    text-align: left;
+    text-transform: upperase;
+    padding: 5px;
+}
+.text-shadow{
+    color: var(--secondary-text-color);
+}
+
+/* Projects page */
+.project-flex-container{
+    background-color: var(--main-bg-color) ;
+    background-size: cover;
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.title{
+    margin: 5%;
+    padding: 8%;
+    text-align: justify;
+    text-shadow: 2px 2px var(--secondary-text-color);
+    height: 50%;
+}
+.project{
+    padding: 30px;
+    margin: 1%;
+    width: 40%;
+}
+.project-title{
+    font-size: 40px;
+}
+.project-discription{
+    margin: 8px;
+    padding: 2px;
+    font-size: 20px;
+    text-align: left;
+}
+.built{
+    font-size: 15px;  
+    text-align: left;
+    margin-top: 10%
+}
+a{
+    font-size: 18px;
+}
+/* unvisited link */
+a:link {
+    color:var(--secondary-text-color);
+}
+  
+/* visited link */
+a:visited {
+    color:#9A8C98;
+}
+  
+/* mouse over link */
+a:hover {
+    color:#22223B;
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+
+/* contact me  */
+.contact-flex-container{
+    background-color: var(--main-bg-color) ;
+    background-size: cover;
+    color: var(--main-text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.contact{
+    height: 25%;
+    width: 80%;
+    padding: 5%;
+    margin: 1%;
+    align-content: center;
+}
