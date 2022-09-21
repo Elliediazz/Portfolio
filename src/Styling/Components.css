@@ -4,6 +4,10 @@
     --secondary-text-color: #6B9080;
     --font-family: Monospace;
 }
+.bg-color{
+    background-color: var(--main-bg-color) ;
+    background-size: cover;
+}
 
 /* Navbar */
 .logo {
@@ -11,15 +15,14 @@
     width: 8vh;
     clip-path: circle();
 }
+
 /* Home Page */
 .home-flex-container {
-    background-color: var(--main-bg-color) ;
-    background-size: cover;
     color: var(--main-text-color);
     font-family: var(--font-family);
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 .home {
     text-align: center;
@@ -55,8 +58,6 @@
 
 /* About page */
 .about-flex-container {
-    background-color: var(--main-bg-color) ;
-    background-size: cover;
     color: var(--main-text-color);
     font-family: var(--font-family);
     display: flex;
@@ -80,13 +81,11 @@
     display: flex;
     position: absolute;
     left: 75%;
-    top: 90%;
+    top: 1400px;
 }
 
 /* experience page */
 .experience-flex-container{
-    background-color: var(--main-bg-color) ;
-    background-size: cover;
     color: var(--main-text-color);
     font-family: var(--font-family);
     display: flex;
@@ -123,8 +122,6 @@ ul li{
 
 /* Projects page */
 .project-flex-container{
-    background-color: var(--main-bg-color) ;
-    background-size: cover;
     color: var(--main-text-color);
     font-family: var(--font-family);
     display: flex;
@@ -182,8 +179,6 @@ a:active {
 
 /* contact me  */
 .contact-flex-container{
-    background-color: var(--main-bg-color) ;
-    background-size: cover;
     color: var(--main-text-color);
     display: flex;
     flex-direction: column;
