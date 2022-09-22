@@ -3,9 +3,10 @@ import '../Styling/Components.css';
 
 export default function Projects() {
     return(
-        <div className="project-flex-container">
+        <div className="project-bg">
             <h1 className="title">Projects I've Worked On...</h1>
-            <div className="project shadow">
+            <div className="project-flex-container">
+             <div className="project shadow">
               <h2 className="project-title">JediBook</h2>
                 <h4>
                   <a target="_blank" rel="noopener noreferrer" href= "https://github.com/Elliediazz/JediBook-Client" >
@@ -23,8 +24,8 @@ export default function Projects() {
                 Built using: HTML, CSS, Javascript, React.js, Express, 
                 Node.js, Mongoose, Mongo DB, SWAPI
               </h4>
-            </div>
-            <div className="project shadow">
+             </div>
+             <div className="project shadow">
               <h2 className="project-title">CDEV Quizzes</h2>
                 <h4>
                   <a className="links" target="_blank" rel="noopener noreferrer" href= "https://github.com/Elliediazz/CDEV-Quizzes-Client" >
@@ -40,7 +41,8 @@ export default function Projects() {
                 Built using: HTML, CSS, Javascript, React.js, Express, 
                 Mongoose, Mongo DB
               </h4>
-            </div>      
+             </div> 
+            </div>     
         </div>
     )
 }
