@@ -4,6 +4,15 @@
     --secondary-text-color: #6B9080;
     --font-family: Monospace;
 }
+.all-bg{
+    background-color: var(--main-bg-color) ;
+    background-size: cover;
+    color: var(--main-text-color);
+    font-family: var(--font-family);
+    width: 100vw;
+    height: 100%;
+    margin-top: 50px;
+}
 
 /* Navbar */
 .logo {
@@ -13,20 +22,14 @@
 }
 /* Home Page */
 .home-flex-container {
-    background-color: var(--main-bg-color) ;
-    background-size: cover;
-    color: var(--main-text-color);
-    font-family: var(--font-family);
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    margin-top: 75px;
+    flex-direction: row-reverse;
 }
 .home {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 5vh;
+    margin: 5%;
 }
 .home-content{
     justify-content:center;
@@ -38,12 +41,19 @@
 .home-content-div{
     margin-top: 5vh;
 }
+.home-button-container{
+    border: 1px whitesmoke;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 25px;
+    height: auto;
+}
 .profile {
-    clip-path: ellipse(245px 190px at 300px 290px);
+    /* clip-path: ellipse(245px 190px at 300px 290px); */
     height: 75%;
-    width: 40%;
-    margin-top: 20vh;
-    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+    width: 30%;
+    margin: 10% 5% 5% 5%;
 }
 .greeting{
     font-size: 2vw;
@@ -56,46 +66,36 @@
 
 /* About page */
 .about-flex-container {
-    background-color: var(--main-bg-color) ;
-    background-size: cover;
-    color: var(--main-text-color);
-    font-family: var(--font-family);
     display: flex;
-    justify-content: center; 
-    width: 100vw;
-    height: 100vh;
-    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 .about-main-div{
     width: 50%;
-    height: 60px;
-    margin-top: 10vh;
-  }
+    margin-top: 50px;
+}
 .about{
     text-align: center;
     line-height: 40px;
     font-size: larger;
     padding: 5%;
+    text-align:left;
 }
 .button-container{
     border: 1px whitesmoke;
     display: flex;
-    position: absolute;
-    left: 75%;
-    top: 90%;
+    height: auto;
+    width: 50%;
+    justify-content: center;
+    margin: 25px;
 }
 
 /* experience page */
 .experience-flex-container{
-    background-color: var(--main-bg-color) ;
-    background-size: cover;
-    color: var(--main-text-color);
-    font-family: var(--font-family);
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: auto;
-    margin-top: 50px;
 }
 .summary{
     width: auto;
@@ -126,15 +126,6 @@ ul li{
 }
 
 /* Projects page */
-.project-bg{
-    background-color: var(--main-bg-color) ;
-    background-size: cover;
-    color: var(--main-text-color);
-    font-family: var(--font-family);
-    width: 100vw;
-    height: 100%;
-    margin-top: 50px;
-}
 .project-flex-container{
     display: flex;
     flex-direction: row;
@@ -194,20 +185,19 @@ a:active {
 
 /* contact me  */
 .contact-flex-container{
-    background-color: var(--main-bg-color) ;
-    background-size: cover;
-    color: var(--main-text-color);
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
     height: 100vh;
-    margin-top: 75px;
 }
 .contact{
     height: 25%;
     width: 80%;
     padding: 5%;
-    margin: 1%;
+    margin-top: 10%;
     align-content: center;
+}
+.email{
+    font-size: 25px;
+    cursor: pointer;
 }

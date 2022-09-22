@@ -3,7 +3,7 @@ import '../Styling/Components.css';
 
 export default function Projects() {
     return(
-        <div className="project-bg">
+        <div className="all-bg">
             <h1 className="title">Projects I've Worked On...</h1>
             <div className="project-flex-container">
              <div className="project shadow">

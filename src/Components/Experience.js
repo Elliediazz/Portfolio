@@ -3,6 +3,7 @@ import '../Styling/Components.css';
 
 export default function Experience() {
     return(
+      <div className="all-bg">
         <div className="experience-flex-container">
           <div className="summary">
             <h2>
@@ -90,7 +91,7 @@ export default function Experience() {
                 </li>
             </ul>
           </div>
-
-        </div>
+          </div> 
+      </div>
     )
 }
