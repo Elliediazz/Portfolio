@@ -51,9 +51,9 @@
     height: auto;
 }
 .profile {
-    /* clip-path: ellipse(245px 190px at 300px 290px); */
-    height: 65%;
-    width: 30%;
+    clip-path: ellipse(200px 170px at 215px 230px);
+    height: 400px;
+    width: 500px;
     margin: 10% 5% 5% 5%;
 }
 .greeting{
