@@ -24,6 +24,7 @@
 .home-flex-container {
     display: flex;
     flex-direction: row-reverse;
+    height: 100vh;
 }
 .home {
     text-align: center;
@@ -51,7 +52,7 @@
 }
 .profile {
     /* clip-path: ellipse(245px 190px at 300px 290px); */
-    height: 75%;
+    height: 65%;
     width: 30%;
     margin: 10% 5% 5% 5%;
 }
@@ -129,6 +130,8 @@ ul li{
 .project-flex-container{
     display: flex;
     flex-direction: row;
+    height: 100vh;
+    
 }
 .title{
     text-align: center;
@@ -143,7 +146,7 @@ ul li{
 .project{
     padding: 30px;
     margin: 1%;
-    height: auto;
+    height: 75%;
     width: 50%;
 }
 .project-title{
@@ -159,7 +162,7 @@ ul li{
 .built{
     font-size: 15px;  
     text-align: left;
-    margin-top: 20%
+    margin-top: 10%
 }
 a{
     font-size: 18px;
