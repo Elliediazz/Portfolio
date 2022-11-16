@@ -6,7 +6,7 @@
 }
 .all{
     background-color: var(--main-bg-color) ;
-    background-size: cover;
+    background-size: 100%;
     font-family: var(--font-family);
     padding-top: 70px;
 }
@@ -43,11 +43,11 @@
 .home-content-div{
     margin-top: 5vh;
 }
-.profile {
-    clip-path: ellipse(245px 190px at 300px 290px);
-    height: 75%;
-    width: 40%;
-    margin-top: 20vh;
+.profilepic {
+    height: 400px;
+    width: 400px;
+    margin-top: 70px;
+    margin-right: 50px;
     cursor: pointer;
 }
 .greeting{

@@ -1,7 +1,7 @@
 import React from "react";
 
 import '../Styling/Components.css'
-import ProfilePic from "../Styling/ProfilePic.jpg";
+import ProfilePic from "../Styling/ProfilePic.jpeg";
 import PDF from "../Styling/Resume.pdf"
 
 export default function Home(){
@@ -24,7 +24,7 @@ export default function Home(){
               </p>
               </div>
             </div>
-            <img className="profile shadow" src={ProfilePic} alt="Profile"/>
+            <img className="profilepic shadow" src={ProfilePic} alt="Profile"/>
         </div>
     <br></br>
     <br></br>
@@ -75,7 +75,7 @@ export default function Home(){
             </h2>
           </div> 
 
-          <div className="jobs shadow">
+          <div className="jobs">
             <h2>
                 Jen-Ter Technologies | Project Engineer
             </h2>
@@ -157,7 +157,7 @@ export default function Home(){
     <br></br>
         <div className="project-flex-container shadow" id="projects-page">
             <h1 className="title">Projects made by Me</h1>
-            <div className="project shadow">
+            <div className="project">
               <h2 className="project-title">JediBook</h2>
                 <h4>
                   <a target="_blank" rel="noopener noreferrer" href= "https://github.com/Elliediazz/JediBook-Client" >
