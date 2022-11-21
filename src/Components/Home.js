@@ -1,6 +1,6 @@
 import React from "react";
 import '../Styling/Components.css'
-import ProfilePic from "../Styling/ProfilePic.jpg";
+import ProfilePic from "../Styling/ProfilePic.jpeg";
 
 export default function Home(){
     return(

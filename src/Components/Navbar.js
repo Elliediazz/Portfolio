@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styling/Components.css'
 import PDF from "../Styling/Resume.pdf"
-import logo from "../Styling/logo.jpeg"
+import logo from "../Styling/logo.png"
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
