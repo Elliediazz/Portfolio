@@ -1,8 +1,8 @@
 :root {
-    --main-bg-color: #2F3E46 ;
-    --main-text-color: #CAD2C5;
-    --secondary-text-color: #6B9080;
-    --font-family: Monospace;
+    --main-bg-color: #F3F4F4 ;
+    --main-text-color: #545454;
+    --secondary-text-color: #F3F4F4;
+    --font-family: Hatton;
 }
 .all-bg{
     background-color: var(--main-bg-color) ;
@@ -15,32 +15,83 @@
 }
 
 /* Navbar */
+.navbar{
+    background-color: #7E7992;
+}
 .logo {
-    height: auto; 
-    width: 8vh;
-    clip-path: circle();
+    height: 50px; 
+    width: 60px;
+    background-color: #7E7992;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+    /* border: 2px solid #F3F4F4; */
+}
+
+.icons{
+    height: 50px; 
+    width: 220px;
+    background-color: #dadada;
+    margin-left: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+    border: 2px solid #F3F4F4;
+}
+.icons::after{
+    content: "";
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background-color: whitesmoke;
+    z-index: -1;
+    filter: blur(8px);
+    top: 5px;
+    left: 7px;
+    transition: all 300ms ease-in;
+}
+.icons:hover::after {
+    height: 102%;
+    width: 101%;
+    top:0;
+    left:0;
+}
+.icon {
+    height: 40px; 
+    width: 60px;
+}
+.linkedinicon {
+    height: 35px; 
+    width: 40px;
 }
 /* Home Page */
 .home-flex-container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     height: 100vh;
+    width: 100vw;
+    background-image: url("backgroundGraphic.png");
+    background-position: left 30em bottom 0px;
+    background-repeat: no-repeat;
 }
-.home {
+.graphic{
+    background-image: url("backgroundGraphic.png");
+    background-position-x: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.home-content {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 5%;
+    margin: 1%;
+    
 }
-.home-content{
-    justify-content:center;
-    padding: 1%;
-    color: var(--secondary-text-color);
-    font-size: 1.5vw;
-    text-align:left;
-}
-.home-content-div{
-    margin-top: 5vh;
+.home-info-div{
+    /* margin-top: 5vh; */
 }
 .home-button-container{
     border: 1px whitesmoke;
@@ -51,18 +102,18 @@
     height: auto;
 }
 .profile {
-    clip-path: ellipse(200px 170px at 215px 230px);
-    height: 400px;
-    width: 500px;
-    margin: 10% 5% 5% 5%;
+    height: 300px;
+    width: 300px;
+    margin: 10% 5% 5% 25%;
 }
 .greeting{
-    font-size: 2vw;
+    font-size: 12vw;
+    color: rgba(0, 0, 0, 0.15);
 }
 .name{
-    font-size: 5vw;
-    margin-top: 5%;
-    text-shadow: 2px 2px var(--secondary-text-color);
+    font-size: 3.5vw;
+    margin-top: -80px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /* About page */
@@ -104,7 +155,7 @@
     margin: 10vh;
     padding: 10px;
     text-align: center;
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     justify-content: center;
     border-bottom: 5px solid;
 }
