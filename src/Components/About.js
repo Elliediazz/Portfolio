@@ -4,16 +4,17 @@ import PDF from "../Styling/Resume.pdf"
 
 export default function About (){
     return(
-        <div className="all-bg">
-          <div className="about-flex-container">
-            <div className="about-main-div">
-                <h1>Heres a little about me!</h1>
-                <p className="about"> I graduated with a Bachelor of Science in 
+        <div className="all-bg about-flex-container">
+            <div className="header-div">
+            <h1 className="header">ABOUT</h1>
+            </div>
+            <div className="about-content">
+                <p className="about-info"> I graduated with a Bachelor of Science in 
                   Physics from the University of Wisconsin - Oshkosh and decided to 
                   further pursue my interest in Software Developement by attending an  
                   intensive Certificate Program from the University of Wisconsin - Madison.
                 </p>
-                <p className="about">
+                <p className="about-info">
                   I am looking for a challenge. The biggest reason why I am looking to 
                   emerge into the Tech industry is the constant, ever changing dynamic of 
                   the field. I am a person that seeks a thrill and a challenge where ever I go 
@@ -41,7 +42,6 @@ export default function About (){
                     </button>
                 </a>
             </div>
-          </div>
         </div>
     )
 }
