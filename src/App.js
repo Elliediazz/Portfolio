@@ -6,7 +6,9 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Experience from './Components/Experience';
+import Education from './Components/Education';
 import Projects from './Components/Projects';
+import Skills from './Components/Skills';
 
 function App() {
   return (
@@ -18,9 +20,11 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home />}/>
         <Route path='/about' element={<About />}/>
-        <Route path='/contact' element={<Contact />}/>
-        <Route path='/experience' element={<Experience />}/>
         <Route path='/projects' element={<Projects />}/>
+        <Route path='/skills' element={<Skills />}/>
+        <Route path='/education' element={<Education />}/>
+        <Route path='/experience' element={<Experience />}/>
+        <Route path='/contact' element={<Contact />}/>
       </Routes>
      </Router>
     </div>

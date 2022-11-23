@@ -6,9 +6,9 @@ export default function About (){
     return(
         <div className="all-bg about-flex-container">
             <div className="header-div">
-            <h1 className="header">ABOUT</h1>
+                <h1 className="header">ABOUT</h1>
             </div>
-            <div className="about-content">
+            <div className="about-info-div">
                 <p className="about-info"> I graduated with a Bachelor of Science in 
                   Physics from the University of Wisconsin - Oshkosh and decided to 
                   further pursue my interest in Software Developement by attending an  
