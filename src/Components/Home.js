@@ -1,50 +1,40 @@
 import React from "react";
 import '../Styling/Components.css'
 import ProfilePic from "../Styling/ProfilePic.jpeg";
-import PDF from "../Styling/Resume.pdf"
-import About from "../Styling/About.png"
+
 
 export default function Home(){
     return(
-        <div className="all-bg home-flex-container">
-            <div className="home-content">
-              <h1 className="greeting">Welcome!</h1>
-              <h1 className="name">My Name is Ellie Barrera-Diaz</h1>
-              <div className="home-info-div">
-                <div className="iconstabs">
-                    <a href="/about"><ion-icon name="person-circle-outline"></ion-icon></a>
-                    <h5>ABOUT</h5>
-                </div>
-                <div className="iconstabs">
-                    <a href="/skills"><ion-icon name="terminal-outline"></ion-icon></a>
-                    <h5>SKILLS</h5>
-                </div>
-                <div className="iconstabs">
-                    <a href="/education"><ion-icon name="school-outline"></ion-icon></a>
-                    <h5>EDUCATION</h5>
-                </div>
-                <div className="iconstabs">
-                    <a href="/experience"><ion-icon name="briefcase-outline"></ion-icon></a>
-                    <h5>EXPERIENCE</h5>
-                </div>
-                <div className="iconstabs">
-                    <a href="/contact"><ion-icon name="call-outline"></ion-icon></a>
-                    <h5>CONTACT</h5>
-                </div>
-                <div className="iconstabs">
-                    <a target="_blank" rel="noopener noreferrer" href={PDF}><ion-icon name="newspaper-outline"></ion-icon></a>
-                    <h5>RESUME</h5>
-                </div>
-              </div>
-              <div className='homeicons'>
-                    <a className='icon' href="https://www.linkedin.com/in/elliediaz/" target="_blank" rel="noreferrer" class="nav-item nav-link"><ion-icon size="large" name="logo-linkedin"></ion-icon></a>
-			        <a className='icon' href="https://github.com/Elliediazz" target="_blank" rel="noreferrer" class="nav-item nav-link"><ion-icon size="large" name="logo-github"></ion-icon></a>
-			        <a className='icon' href="https://twitter.com/diazzellie" target="_blank" rel="noreferrer" class="nav-item nav-link"><ion-icon size="large" name="logo-twitter"></ion-icon></a>		
+        <div className="home-main-div">
+        <div className="background-top">
+            <div className="content">
+                <h1>Welcome</h1>
+                <h1>to my Portfolio</h1>
+                <a href="/contact"> Connect with me!</a>
+            </div>
+        </div>
+        <div className="info-container">
+            <div className="pic-div ">
+                <img className="profilepic" src={ProfilePic} alt="ProfilePicture"/>
+            </div>
+            <div class="home-newsletter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="single">
+                                <h2>Subscribe to My Newsletter</h2>
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Enter your email"/>
+                                <span class="input-group-btn">
+                                <button class="btn btn-theme" type="submit">Subscribe</button>
+                                </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img className="profilepic" src={ProfilePic} alt="Profile"/>
-            </div>
+        </div>
         </div>
     )
 }

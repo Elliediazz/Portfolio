@@ -1,0 +1,137 @@
+import React from "react";
+import '../Styling/Components.css'
+import ProfilePic from "../Styling/ProfilePic.jpeg";
+import PDF from "../Styling/Resume.pdf"
+
+export default function Home(){
+    return(
+        <div className="all-bg home-flex-container">
+            <div className="home-content">
+              <h1 className="greeting">Welcome!</h1>
+              <h1 className="name">My Name is Ellie Barrera-Diaz</h1>
+              <div className="home-info-div">
+                <div className="iconstabs">
+                    <a href="/about"><ion-icon name="person-circle-outline"></ion-icon></a>
+                    <h5>ABOUT</h5>
+                </div>
+                <div className="iconstabs">
+                    <a href="/skills"><ion-icon name="terminal-outline"></ion-icon></a>
+                    <h5>SKILLS</h5>
+                </div>
+                <div className="iconstabs">
+                    <a href="/education"><ion-icon name="school-outline"></ion-icon></a>
+                    <h5>EDUCATION</h5>
+                </div>
+                <div className="iconstabs">
+                    <a href="/experience"><ion-icon name="briefcase-outline"></ion-icon></a>
+                    <h5>EXPERIENCE</h5>
+                </div>
+                <div className="iconstabs">
+                    <a href="/contact"><ion-icon name="call-outline"></ion-icon></a>
+                    <h5>CONTACT</h5>
+                </div>
+                <div className="iconstabs">
+                    <a target="_blank" rel="noopener noreferrer" href={PDF}><ion-icon name="newspaper-outline"></ion-icon></a>
+                    <h5>RESUME</h5>
+                </div>
+              </div>
+              <div className='homeicons'>
+                    <a className='icon' href="https://www.linkedin.com/in/elliediaz/" target="_blank" rel="noreferrer" class="nav-item nav-link"><ion-icon size="large" name="logo-linkedin"></ion-icon></a>
+			        <a className='icon' href="https://github.com/Elliediazz" target="_blank" rel="noreferrer" class="nav-item nav-link"><ion-icon size="large" name="logo-github"></ion-icon></a>
+			        <a className='icon' href="https://twitter.com/diazzellie" target="_blank" rel="noreferrer" class="nav-item nav-link"><ion-icon size="large" name="logo-twitter"></ion-icon></a>		
+                </div>
+            </div>
+            <div>
+                <img className="profilepic" src={ProfilePic} alt="Profile"/>
+            </div>
+        </div>
+    )
+}
+
+
+
+
+*************css*******************
+
+/* Home Page */
+.home-flex-container {
+    display: flex;
+    flex-direction: row;
+    height: cover;
+    width: cover;
+    background-image: url("backgroundGraphic.png");
+    background-size:cover;
+    background-position: left 25em bottom -100px;
+    background-repeat: no-repeat;
+}
+
+.home-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    
+}
+.home-info-div{
+    height: 350px;
+    width: 480px;
+    background-color: rgba(45, 50, 79, 1);
+    margin: 4em 0em 0em 4em;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.iconstabs{
+    height: 40%;
+    width: 25%;
+    margin: 15px;
+}
+ion-icon {
+    font-size: 60px;
+}
+.homeicons{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:#070D29;
+    margin: 5% 0% 0% 35%;
+    position: relative;
+    padding: 20px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid var(--main-text-color);
+}
+
+.home-button-container{
+    border: 1px whitesmoke;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 25px;
+    height: auto;
+}
+.picdiv {
+    height: 100vh;
+    width: 60%;
+    margin: 10% 5% 0% 25%;
+    position: relative;
+}
+.profilepic{
+    height: 50vh;
+    width:25vw;
+    margin: 10em 10em 10em 20em;
+    filter: drop-shadow(0px 0px 15px rgb(255, 255, 255))
+}
+.greeting{
+    font-size: 8em;
+    font-weight: thin;
+    color: var(--secondary-text-color);
+}
+.name{
+    font-size: 2.2em;
+    margin-top: -50px;
+    color: var(--main-text-color);
+}

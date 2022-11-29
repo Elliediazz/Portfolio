@@ -21,6 +21,12 @@ export default function About (){
                   and that is precisely what I hope to find in my next role. I am excited to 
                   learn and to be better my skills as I navigate through my journey in the 
                   Tech industry.
+                    <br></br>
+                    <br></br>
+                  I graduated with a Bachelor of Science in 
+                  Physics from the University of Wisconsin - Oshkosh and decided to 
+                  further pursue my interest in Software Developement by attending an  
+                  intensive Certificate Program from the University of Wisconsin - Madison.
                 </p>
                 <h2>Connect with me on LinkedIn!</h2>
             </div>

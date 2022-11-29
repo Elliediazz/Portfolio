@@ -19,9 +19,9 @@ export default function NavBar() {
             <Nav.Link class="btn text-light" href="/about">About</Nav.Link>
 			      <div class="nav-item dropdown">
               <button class=" btn btn-transparent dropdown-toggle text-light"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Skills/ Projects
+                Web Development
               </button>
-				      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">					
+				      <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">					
 					      <a href="/skills" class="dropdown-item">Skills and Languages</a>
 					      <a href="/projects" class="dropdown-item">CDEV Quizzes</a>
                 <a href="/projects" class="dropdown-item">Where Do You Want to Eat?</a>
