@@ -16,22 +16,18 @@ export default function About (){
                     <div className="about-me-container">
                         <div className="about-me">
                             <div className="details">
-                                <h5>Name:</h5>
-                                <h6>Eleanny Barrera-Diaz </h6>
+                                <h5>Name: Ellie Barrera</h5>
                             </div>
                             <div className="details">
-                                <h5>Location:</h5>
-                                <h6>Charleston, SC</h6>
+                                <h5>Location: Charleston, SC</h5>
                             </div>
                         </div>
                         <div className="about-me">
                             <div className="details">
-                                <h5>Email:</h5>
-                                <h6>Elliediaz1204@gmail.com</h6>
+                                <h5>Email: Elliediaz1204@gmail.com</h5>
                             </div>
                             <div className="details">
-                                <h5>Birthday:</h5>
-                                <h6>December 4th 1996</h6>
+                                <h5>Birthday: December 4th 1996</h5>
                             </div>
                         </div>
                     </div>
