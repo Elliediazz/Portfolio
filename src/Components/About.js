@@ -1,53 +1,41 @@
 import React from "react";
 import '../Styling/Components.css';
-import PDF from "../Styling/Resume.pdf"
+import ProfilePic from "../Styling/ProfilePic.jpeg";
 
 export default function About (){
     return(
         <div className="all-bg about-flex-container">
-            <div className="header-div">
-                <h1 className="header">ABOUT</h1>
-            </div>
-            <div className="about-info-div">
-                <p className="about-info"> I graduated with a Bachelor of Science in 
-                  Physics from the University of Wisconsin - Oshkosh and decided to 
-                  further pursue my interest in Software Developement by attending an  
-                  intensive Certificate Program from the University of Wisconsin - Madison.
-                </p>
-                <p className="about-info">
-                  I am looking for a challenge. The biggest reason why I am looking to 
-                  emerge into the Tech industry is the constant, ever changing dynamic of 
-                  the field. I am a person that seeks a thrill and a challenge where ever I go 
-                  and that is precisely what I hope to find in my next role. I am excited to 
-                  learn and to be better my skills as I navigate through my journey in the 
-                  Tech industry.
-                    <br></br>
-                    <br></br>
-                  I graduated with a Bachelor of Science in 
-                  Physics from the University of Wisconsin - Oshkosh and decided to 
-                  further pursue my interest in Software Developement by attending an  
-                  intensive Certificate Program from the University of Wisconsin - Madison.
-                </p>
-                <h2>Connect with me on LinkedIn!</h2>
-            </div>
-            
-            <div className="button-container">
-                <a target="_blank" rel="noopener noreferrer" href= "https://www.linkedin.com/in/elliediaz/" >
-                    <button type="button">
-                        LinkedIn
-                    </button>
-                </a>
-                <a target="_blank" rel="noopener noreferrer" href= "https://github.com/Elliediazz" >
-                    <button type="button">
-                        Github
-                    </button>
-                </a>
-                <a target="_blank" rel="noopener noreferrer" href= { PDF } >
-                    <button type="button">
-                        Resume
-                    </button>
-                </a>
-            </div>
+                <div>
+                    <img className="profilepicabout" src={ProfilePic} alt="ProfilePicture"/>
+                </div>
+                <div className="about-info">
+                    <h1>About Me </h1>
+                    <h4>Full Stack Software Developer </h4>
+                    <p> Hello, My name is Eleanny Barrera-Diaz, or Ellie for short! I am an experienced project engineer with the comprehensive analytical skills and knowledge of innovative design and application development. 
+                    Through-out my post college years, I have gained experience across multiple development stacks and am currently looking for a position that incorporates critical thinking, problem-solving, and leadership while enhancing my expertise in software development.</p>
+                    <div className="about-me-container">
+                        <div className="about-me">
+                            <div className="details">
+                                <h5>Name:</h5>
+                                <h6>Eleanny Barrera-Diaz </h6>
+                            </div>
+                            <div className="details">
+                                <h5>Location:</h5>
+                                <h6>Charleston, SC</h6>
+                            </div>
+                        </div>
+                        <div className="about-me">
+                            <div className="details">
+                                <h5>Email:</h5>
+                                <h6>Elliediaz1204@gmail.com</h6>
+                            </div>
+                            <div className="details">
+                                <h5>Birthday:</h5>
+                                <h6>December 4th 1996</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     )
 }

@@ -135,3 +135,22 @@ ion-icon {
     margin-top: -50px;
     color: var(--main-text-color);
 }
+
+
+
+
+skills
+<div className="skills-div">
+    <div className="skills">Javascript</div>
+    <div className="skills">Python</div>
+    <div className="skills">React</div>
+    <div className="skills">SQL</div>
+    <div className="skills">PostgreSQL</div>
+    <div className="skills">MongoDB</div>
+    <div className="skills">Mongoose</div>
+    <div className="skills">CSS</div>
+    <div className="skills">HTML</div>
+    <div className="skills">Node.js</div>
+    <div className="skills">Express</div>
+    <div className="skills">Front-End</div>
+</div>

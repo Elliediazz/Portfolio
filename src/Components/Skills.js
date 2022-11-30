@@ -1,35 +1,42 @@
 import React from "react";
 import '../Styling/Components.css'
+import ReactIcon from "../Styling/icons/ReactIcon.png";
+import NodeIcon from "../Styling/icons/NodeIcon.png";
+import PythonIcon from "../Styling/icons/PythonIcon.png";
+import CssIcon from "../Styling/icons/CssIcon.png";
+import HtmlIcon from "../Styling/icons/HtmlIcon.png";
+import JSIcon from "../Styling/icons/JSIcon.png";
+import MongoIcon from "../Styling/icons/MongoIcon.png";
+import PostgresIcon from "../Styling/icons/PostgresIcon.png";
+import ExpressIcon from "../Styling/icons/ExpressIcon.png";
+import SQLIcon from "../Styling/icons/SQLIcon.png";
 
 export default function Skills(){
     return(
         <div className="all-bg skills-flex-container">
             <div className="header-div">
-                <h1 className="header">Skills & Projects</h1>
+                <h1 className="header">Languages & Skills</h1>
             </div>
-            <div className="skills-info-div">
-                <div className="skills-div">
-                    <div className="skills">Javascript</div>
-                    <div className="skills">Python</div>
-                    <div className="skills">React</div>
-                    <div className="skills">SQL</div>
-                    <div className="skills">PostgreSQL</div>
-                    <div className="skills">MongoDB</div>
-                    <div className="skills">Mongoose</div>
-                    <div className="skills">CSS</div>
-                    <div className="skills">HTML</div>
-                    <div className="skills">Node.js</div>
-                    <div className="skills">Express</div>
-                    <div className="skills">Front-End</div>
+            <div className="skills-info-container">
+                <div className="horizontal-scroll">
+                    <button className="btn-scroll" id="btn-scroll-left" ><ion-icon name="chevron-back-outline"></ion-icon></button>
+                    <button className="btn-scroll" id="btn-scroll-right"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+                    <div className="skills-container">
+                        <div className="skills"><img src={ReactIcon} alt="React Icon"/></div>
+                        <div className="skills"><img src={NodeIcon} alt="Node Icon"/></div>
+                        <div className="skills"><img src={PythonIcon} alt="Python Icon"/></div>
+                        <div className="skills"><img src={CssIcon} alt="Css Icon"/></div>
+                        <div className="skills"><img src={HtmlIcon} alt="Html Icon"/></div>
+                        <div className="skills"><img src={JSIcon} alt="JS Icon"/></div>
+                        <div className="skills"><img src={MongoIcon} alt="Mongo Icon"/></div>
+                        <div className="skills"><img src={PostgresIcon} alt="Postgres Icon"/></div>
+                        <div className="skills"><img src={ExpressIcon} alt="Express Icon"/></div>
+                        <div className="skills"><img src={SQLIcon} alt="SQL Icon"/></div>
+                    </div>
                 </div>
-                <div className="project-cards">
-                    <a href="/projects" className="project-card">CDEV Quizzes</a>
-                    <a href="/projects" className="project-card">Where Do You Want To Eat?</a>
-                    <a href="/projects" className="project-card">JediAPI</a>
-                    <a href="/projects" className="project-card">Bootcamp Projects</a>
-                </div>
-           
+                
             </div>
+
         </div>
     )
 }
