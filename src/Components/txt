@@ -154,3 +154,19 @@ skills
     <div className="skills">Express</div>
     <div className="skills">Front-End</div>
 </div>
+
+
+<div className="project-container">
+    <div  className="Project-box">
+        <h1>CDEV Quizzes</h1>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu nunc erat. Vestibulum lacinia ligula sit amet lorem euismod, quis feugiat metus ornare. Curabitur a justo eleifend, pellentesque augue eu, bibendum enim. Sed vitae neque vestibulum, efficitur justo sed, lacinia nunc. Nam fermentum cursus orci, quis hendrerit ligula ornare at. Suspendisse luctus volutpat nisi. Phasellus congue mi augue, vel tempor mauris porta id. Sed vitae finibus lacus, vel aliquam felis. Etiam quis congue arcu, eu vestibulum justo. Cras blandit volutpat sem, eu facilisis turpis convallis eu. Aliquam tincidunt elit tortor, sed pharetra est placerat et. Maecenas vel ornare sem. Aenean bibendum augue massa, in dignissim lacus eleifend eu. Donec luctus eros nec dolor pretium, non cursus leo lobortis. Fusce nulla sem, ornare et imperdiet nec, dignissim non elit. Vivamus tincidunt odio quis lacus posuere feugiat.</p>
+        </div>
+    </div>
+    <div  className="Project-box">
+        <h1>Where to Eat?</h1>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu nunc erat. Vestibulum lacinia ligula sit amet lorem euismod, quis feugiat metus ornare. Curabitur a justo eleifend, pellentesque augue eu, bibendum enim. Sed vitae neque vestibulum, efficitur justo sed, lacinia nunc. Nam fermentum cursus orci, quis hendrerit ligula ornare at. Suspendisse luctus volutpat nisi. Phasellus congue mi augue, vel tempor mauris porta id. Sed vitae finibus lacus, vel aliquam felis. Etiam quis congue arcu, eu vestibulum justo. Cras blandit volutpat sem, eu facilisis turpis convallis eu. Aliquam tincidunt elit tortor, sed pharetra est placerat et. Maecenas vel ornare sem. Aenean bibendum augue massa, in dignissim lacus eleifend eu. Donec luctus eros nec dolor pretium, non cursus leo lobortis. Fusce nulla sem, ornare et imperdiet nec, dignissim non elit. Vivamus tincidunt odio quis lacus posuere feugiat.</p>
+        </div>
+    </div> 
+</div> 
