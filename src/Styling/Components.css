@@ -222,14 +222,6 @@
     font-weight: 600;
     align-content: center;
 }
-/* .about-info h6{
-    height: auto ;
-    width: auto;
-    text-align: left;
-    color: whitesmoke;
-    padding: 0px 15px 0px 40px;
-    font-size: 25px;
-} */
 .about-me-container{
     display: flex;
     flex-direction: row;
@@ -282,7 +274,7 @@
     left: 0;
 }
 .skills{
-    background: linear-gradient(rgb(231,0,231), rgb(26, 12, 107));
+    background: linear-gradient(rgb(177, 0, 231), rgb(255, 72, 0));
     width: 250px;
     height: 200px;
     margin: 15px 10px;
@@ -334,6 +326,11 @@
 /* Projects page */
 .project-flex-container{
     display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.project-container{
+    display: flex;
     flex-direction: row;
     height: 100%;
     
@@ -370,7 +367,7 @@
     margin-top: 10%
 }
 
-/* Education */
+/* Education  and Experience page */
 .education-flex-container{
     display: flex;
     flex-direction: column;
@@ -384,54 +381,29 @@
     justify-content:space-around;
     flex-direction: row;
 }
-.schools{
-    width: 500px;
-    height: 500px;
-    margin: 20px;
-}
-.school-greeting{
-    font-size: 2.5em;
-    font-weight: thin;
-    color: var(--secondary-text-color);
-}
-.school-title{
-    height: 100px;
-    width: auto;
-    font-size: 2em;
-    margin-bottom: 25px;
-}
-.education-card{
-    padding: 100px 70px 100px;
+.schools-card{
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 5%;
     background-color: var(--secondary-text-color);
-    border-radius: 15px 50px;
+    border-radius: 15px;
     filter: drop-shadow(0px 0px 15px rgb(85, 86, 87))
 }
-.text-decor{
-    text-align: center;
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 25.5vw;
-    text-decoration: none;
-    font-size: 2em;
+.school-title{
+    font-size: 2.5em;
+    height: 100px;
+    width: auto;
+    margin:20px;
+    font-weight: 600;
 }
-
-/* Experience page */
 .experience-flex-container{
     display: flex;
     flex-direction: column;
 }
-.summary{
-    width: auto;
-    height: auto;
-    margin: 10vh;
-    padding: 10px;
-    text-align: center;
-    color: var(--primary-text-color);
-    justify-content: center;
-    border-bottom: 5px solid;
-}
 .jobs{
     padding: 3%;
-    margin: 3%;
+    margin: 2%;
     justify-content: center;
     height: 90%;
 }
@@ -446,6 +418,7 @@ ul li{
 .text-shadow{
     color: var(--secondary-text-color);
 }
+
 /* Extras */
 .button4 {
     background-color: #e7e7e7; color: black;

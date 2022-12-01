@@ -6,7 +6,6 @@ import Home from './Components/Home';
 import About from './Components/About';
 import ContactForm from './Components/Contact';
 import Experience from './Components/Experience';
-import Education from './Components/Education';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 
@@ -22,7 +21,6 @@ function App() {
         <Route path='/about' element={<About />}/>
         <Route path='/projects' element={<Projects />}/>
         <Route path='/skills' element={<Skills />}/>
-        <Route path='/education' element={<Education />}/>
         <Route path='/experience' element={<Experience />}/>
         <Route path='/contact' element={<ContactForm />}/>
       </Routes>
