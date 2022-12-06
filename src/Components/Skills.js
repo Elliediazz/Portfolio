@@ -14,12 +14,10 @@ import SQLIcon from "../Styling/icons/SQLIcon.png";
 export default function Skills(){
     return(
         <div className="all-bg skills-flex-container">
-            <div className="header-div">
-                <h1 className="header">Languages & Skills</h1>
-            </div>
            <div className="skills-detail">
                 <h1>What I Am Great At</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu nunc erat. Vestibulum lacinia ligula sit amet lorem euismod, quis feugiat metus ornare. Curabitur a justo eleifend, pellentesque augue eu, bibendum enim. Sed vitae neque vestibulum, efficitur justo sed, lacinia nunc. Nam fermentum cursus orci, quis hendrerit ligula ornare at. Suspendisse luctus volutpat nisi. Phasellus congue mi augue, vel tempor mauris porta id.</p>
+                <p>I am looking for a challenge. The biggest reason why I am seeking to emerge in the Tech Industry is the constant change and growth that occures daily in the industry. I am a person that seeks knowledge and a chance to learn something new wherever I go and that is precisely what I hope to find in my next role. I am excited to learn new skills and become a better developer as I progress in my career.</p> 
+                <p>As a Junior Software Developer, I am seeking to pursue an opportunity with a growing organization that will utilize and enhance my knowledge in software development. Below are some of the skills I have aquired in my time in the industry. I hope to add more soon!</p>
            </div>
             <div className="skills-info-container">
                 <div className="horizontal-scroll">
