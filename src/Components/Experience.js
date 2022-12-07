@@ -5,10 +5,10 @@ export default function Experience() {
     return(
       <div className="all-bg experience-flex-container">
         <div className="experience">
-            <button>University Of Wisonsin- Oshkosh</button>
             <button>University Of Wisonsin- Madison</button>
             <button>Jen-Ter Technologies</button>
-            <button>Jen-Ter Technologies</button>
+            <button>Jen-Ter Technologies - Internship</button>
+            <button>University Of Wisonsin- Oshkosh</button>
         </div> 
         <div className="experience-details">
             <div className="uwoshkosh">
