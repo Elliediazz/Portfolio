@@ -2,7 +2,7 @@
 :root {
     --main-bg-color: #000000 ;
     --secondary-bg-color: #000000;
-    --main-text-color: #ffffff;
+    --main-text-color: #ffffffd5;
     --main-text-color-shadow: rgba(201, 169, 169, 0.446)    ;
     --secondary-text-color:  rgba(255, 255, 255, 0.25);
     --font-family: 'Bodoni Moda', serif;
@@ -14,6 +14,7 @@
     overflow: scroll;
     color: var(--main-text-color);
     font-family: var(--font-family);
+    font-weight: 600;
     min-width: 100vw;
     min-height: 100vh;
 }
@@ -23,6 +24,8 @@
     background-color: var(--secondary-bg-color);
     color: var(--main-text-color) ;
     width: 100vw;
+    font-family: var(--font-family);
+    font-weight: 500;
 }
 .logo {
     height: 50px; 
@@ -40,7 +43,7 @@
     justify-content:space-between;
     background-color:#060606;
     margin: 0px 30px 0px 10px;
-    padding: 20px;
+    padding: 20px 15px 14px 15px;
     height: 50px;
     width: 200px;
     border: 2px solid var(--main-text-color);
@@ -215,8 +218,7 @@ ul li {
 }
 .skills-detail{
     text-align: center;
-    margin-top: 55px;
-    padding: 10px;
+    margin: 50px;
     height: auto;
     width: 60%;
 }
@@ -225,16 +227,22 @@ ul li {
     margin: 15px;
     font-weight: 600;
 }
+.skills-header h2{
+    font-size: 35px;
+    font-weight: 700;
+    color:  rgba(57, 64, 68, 0.545);
+}
 .skills-info-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 50vh;
     width: 100vw;
+    margin: 15px 0px 50px 0px;
 }
 .horizontal-scroll{
     width: 90%;
-    height: 70%;
+    height: 100%;
     background-color: rgba(57, 64, 68, 0.545);
     border-radius: 10px;
     display: flex;
@@ -324,7 +332,7 @@ ul li {
     align-items: center;
     justify-content: center;
 }
-.experience{
+.experience-title{
     display: flex;
     flex-direction: column;
     align-items:flex-end;
@@ -333,7 +341,7 @@ ul li {
     height: 90vh;
     padding-top: 10%;
 }
-.experience button{
+.experience-title button{
     background-color:#35353571;
     background-repeat:no-repeat;
     border: none;
@@ -355,18 +363,26 @@ ul li {
     padding-top: 10%;
     margin-left:50px ;
 }
-.experience-details h5{
-    height: auto ;
-    width: auto;
-    color: rgba(234, 114, 142, 0.531);
-    font-weight: 600;
-}
-.experience-details p{
-    height: auto ;
-    width: auto;
-    padding:50px
-}
+.experience-card{
+    padding:20px
 
+}
+.experience-card h1{
+    align-items:center;
+    justify-content: center;
+    margin-top:-50px;
+    font-weight: 600;
+
+}
+.experience-card h4{
+    color: rgba(234, 114, 142, 0.305);
+    font-weight: 600;
+
+}
+.experience-card p{
+    margin-top:50px
+
+}
 
 /* Extras */
 .button4 {
@@ -397,3 +413,4 @@ a:active {
     height: 100vh;
     padding: 50px 250px;
 }
+

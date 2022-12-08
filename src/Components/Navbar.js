@@ -29,7 +29,6 @@ export default function NavBar() {
 					      <a href="/projects" class="dropdown-item">Bootcamp Projects</a>
               </div>
             </div>
-            {/* <Nav.Link class="btn text-light" href="/education">Education</Nav.Link>			 */}
             <Nav.Link class="btn text-light" href="/experience">Experience</Nav.Link>
             {/* <Nav.Link class="btn text-light" href="/">Blog</Nav.Link> */}
             <Nav.Link class="btn text-light" href="/contact">Contact</Nav.Link>
