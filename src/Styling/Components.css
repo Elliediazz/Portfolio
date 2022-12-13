@@ -159,6 +159,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    overflow: hidden;
 }
 
 .profilepicabout{
@@ -215,6 +216,7 @@ ul li {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    overflow: hidden;
 }
 .skills-detail{
     text-align: center;
@@ -230,55 +232,44 @@ ul li {
 .skills-header h2{
     font-size: 35px;
     font-weight: 700;
-    color:  rgba(57, 64, 68, 0.545);
+    color:  rgba(89, 89, 89, 0.6);
 }
-.skills-info-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.carousel{
     height: 50vh;
-    width: 100vw;
-    margin: 15px 0px 50px 0px;
+    width: 85vw;
+    margin: 10px;
+    background-color: rgba(89, 88, 88, 0.6);
+    border-radius: 20px;
 }
-.horizontal-scroll{
-    width: 90%;
+.carousel-inner h1{
+    margin: 10px;
+}
+.carousel-inner{
     height: 100%;
-    background-color: rgba(57, 64, 68, 0.545);
-    border-radius: 10px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
 }
-.horizontal-scroll .btn-scroll {
-    background-color: #e7e7e7;
+.carousel-inner .left{
+    flex: 5%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: grid;
+    place-items: center;
 }
-.skills-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    position: absolute;
-    left: 0;
+.carousel-inner .center{
+    flex: 90%;
+    height: 100%;
+    display: grid;
 }
-.skills{
-    background: linear-gradient(rgb(177, 0, 231, .5), rgb(255, 72, 0));
-    width: 250px;
-    height: 200px;
-    margin: 15px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-}
-
-.skills img {
-    width: 250px;
-    height: 200px;
-    border-radius: 10px;
-    border: 2px solid #fff
+.carousel-inner .right{
+    flex: 5%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: grid;
+    place-items: center;
 }
 
 /* Projects page */
@@ -286,6 +277,7 @@ ul li {
     display: flex;
     flex-direction: column;
     height: 100%;
+    overflow: hidden;
 }
 .project-container{
     display: flex;
@@ -331,6 +323,7 @@ ul li {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 .experience-title{
     display: flex;
@@ -412,5 +405,6 @@ a:active {
     flex-direction: column;
     height: 100vh;
     padding: 50px 250px;
+    overflow: hidden;
 }
 

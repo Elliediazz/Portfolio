@@ -1,7 +1,7 @@
 import React, { useState} from "react";
 import '../Styling/Components.css';
-import Card from './Card'
-import CardData from './CardData'
+import Card from '../Helpers/ExperienceCard'
+import CardData from '../Helpers/CardData'
 
 export default function Experience() {
   const [active, setActive] = useState('CardOne')

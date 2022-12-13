@@ -1,15 +1,7 @@
 import React from "react";
 import '../Styling/Components.css'
-import ReactIcon from "../Styling/icons/ReactIcon.png";
-import NodeIcon from "../Styling/icons/NodeIcon.png";
-import PythonIcon from "../Styling/icons/PythonIcon.png";
-import CssIcon from "../Styling/icons/CssIcon.png";
-import HtmlIcon from "../Styling/icons/HtmlIcon.png";
-import JSIcon from "../Styling/icons/JSIcon.png";
-import MongoIcon from "../Styling/icons/MongoIcon.png";
-import PostgresIcon from "../Styling/icons/PostgresIcon.png";
-import ExpressIcon from "../Styling/icons/ExpressIcon.png";
-import SQLIcon from "../Styling/icons/SQLIcon.png";
+import Carousel from "../Helpers/Carousel";
+
 
 export default function Skills(){
     return(
@@ -21,53 +13,8 @@ export default function Skills(){
            <div className="skills-header">
                 <h2>Below are some of the skills I have aquired during my time in the industry:</h2>
            </div>
-            <div className="skills-info-container">
-                <div className="horizontal-scroll">
-                    <button className="btn-scroll" id="btn-scroll-left" ><ion-icon name="chevron-back-outline"></ion-icon></button>
-                    <button className="btn-scroll" id="btn-scroll-right"><ion-icon name="chevron-forward-outline"></ion-icon></button>
-                    <div className="skills-container">
-                        <div>
-                            <div className="skills"><img src={ReactIcon} alt="React Icon"/></div>
-                            <h1>React</h1>
-                        </div>
-                        <div>
-                            <div className="skills"><img src={NodeIcon} alt="Node Icon"/></div>
-                            <h1>Node</h1>
-                        </div>
-                        <div>
-                            <div className="skills"><img src={PythonIcon} alt="Python Icon"/></div>
-                            <h1>Python</h1>
-                        </div>
-                        <div>
-                            <div className="skills"><img src={CssIcon} alt="Css Icon"/></div>
-                            <h1>CSS</h1>
-                        </div>
-                        <div>
-                            <div className="skills"><img src={HtmlIcon} alt="Html Icon"/></div>
-                            <h1>HTML</h1>
-                        </div>
-                        <div>
-                            <div className="skills"><img src={JSIcon} alt="JS Icon"/></div>
-                            <h1>Javascript</h1>
-                        </div>
-                        <div>
-                            <div className="skills"><img src={MongoIcon} alt="Mongo Icon"/></div>
-                            <h1>MondoDB</h1>
-                        </div>
-                        <div>
-                            <div className="skills"><img src={PostgresIcon} alt="Postgres Icon"/></div>
-                            <h1>PostgreSQL</h1>
-                        </div>
-                        <div>
-                            <div className="skills"><img src={ExpressIcon} alt="Express Icon"/></div>
-                            <h1>Express</h1>
-                        </div>
-                        <div>
-                            <div className="skills"><img src={SQLIcon} alt="SQL Icon"/></div>
-                            <h1>SQL</h1>
-                        </div>
-                    </div>
-                </div>
+            <div>
+                <Carousel />
             </div>
         </div>
     )

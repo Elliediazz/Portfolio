@@ -10,10 +10,10 @@ export default function About (){
                     <h4>Full Stack Software Developer </h4>
                     <p> Hello! My name is Eleanny Barrera-Diaz, or Ellie for short! 
                     
-                    My interet in software development began back in my final year as an undergrad at the University of Wisconsin- Oshkosh. Although I majored in Physics, working through several python orientented projects, I began to wonder what else I could achieve through programming and how I could get there.  
+                    My interest in Software Development began back in my final year as an undergrad at the University of Wisconsin- Oshkosh. Although I majored in Physics, working through several Python orientented projects, I began to wonder what else I could achieve through programming and how I could get there.  
                     </p>
                     <p>
-                    During my two years as a Project Engineer, I never lost my interest in software develpment and looked for ways to nuture that passion. I came across the Software Development Professional Certifcate program offereed by the University of Wisconsin- Madison and now here I am! As a recent graduate of this program , I am currently looking for a position that incorporates critical thinking, problem-solving, and leadership while enhancing my expertise in software development. 
+                    During my two years as a Project Engineer, I never lost my interest in Software Develpment and looked for ways to nuture that passion. I came across the Software Development Professional Certifcate program offered by the University of Wisconsin- Madison and now here I am! As a recent graduate of this program , I am looking for a position that incorporates critical thinking, problem-solving, and leadership while enhancing my expertise in Tech. 
                     </p>
                     <div>
                         <h4>I am currently working with the following technologies:</h4>
