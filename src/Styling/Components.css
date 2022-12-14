@@ -352,8 +352,8 @@ ul li {
     align-items:center;
     border: 2px solid #e7e7e7;
     width: 50%;
-    height: 90vh;
-    padding-top: 10%;
+    height: auto;
+    padding: 5%;
     margin-left:50px ;
 }
 .experience-card{
@@ -363,7 +363,6 @@ ul li {
 .experience-card h1{
     align-items:center;
     justify-content: center;
-    margin-top:-70px;
     font-weight: 600;
 
 }
