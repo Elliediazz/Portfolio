@@ -43,7 +43,7 @@ export default[
         {
             title: "Bachelor of Science in Physics",
             date: "Sep 2015 - Jun 2020",
-            description: " During my 5 Years of Education at the University of Wisconsin - Oshkosh I gained many exceptional skills in both the Physics field and my personal life that I still use today. My choise to pursue a degree in Physics originated from my desire to learn and understand the world around me while nuturing my passion and love for mathmatics.",
+            description: " During my 5 Years of Education at the University of Wisconsin - Oshkosh I gained many exceptional skills in both the Physics field and my Professional life, which I still use today. My decision to pursue a degree in Physics originated from my desire to learn and understand the world around me while nuturing my passion and love for mathematics.",
             skills1:"Research",
             skills2:"Data analysis and Conclusions",
             skills3:"Leadership and Organization",
