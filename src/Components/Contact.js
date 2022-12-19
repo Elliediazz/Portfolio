@@ -27,15 +27,15 @@ export default function ContactForm(){
                   <input type="text" name="name" class="form-control" placeholder="First Name" required/>
                 </div>
                 <div class="col">
-                  <input type="email" name="email" class="form-control" placeholder="Last Name" required/>
+                  <input type="text" name="lastname" class="form-control" placeholder="Last Name" required/>
                 </div>
               </div>
               <div class="form-row p-1">           
                 <div class="col">
-                  <input type="text" name="name" class="form-control" placeholder="Email" required/>
+                  <input type="email" name="email" class="form-control" placeholder="Email" required/>
                 </div>
                 <div class="col">
-                  <input type="email" name="email" class="form-control" placeholder="Phone Number"/>
+                  <input type="number" name="phone" class="form-control" placeholder="Phone Number"/>
                 </div>
               </div>
             </div>
