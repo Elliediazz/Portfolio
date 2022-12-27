@@ -23,9 +23,7 @@ export default function NavBar() {
               </button>
 				      <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">					
 					      <a href="/skills" class="dropdown-item">Skills and Languages</a>
-					      <a href="/projects" class="dropdown-item">CDEV Quizzes</a>
-                <a href="/projects" class="dropdown-item">Where Do You Want to Eat?</a>
-                <a href="/projects" class="dropdown-item">JediAPI</a>
+					      <a href="/projects" class="dropdown-item">Personal Projects</a>
 					      <a href="/projects" class="dropdown-item">Bootcamp Projects</a>
               </div>
             </div>
