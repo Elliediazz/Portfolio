@@ -11,12 +11,12 @@
     background-color: var(--main-bg-color) ;
     background-size: cover;
     background-repeat:repeat;
-    overflow: scroll;
+    overflow: hidden;
     color: var(--main-text-color);
     font-family: var(--font-family);
     font-weight: 600;
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 91vh;
 }
 
 /* Navbar */
@@ -159,7 +159,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    overflow: hidden;
 }
 
 .profilepicabout{
@@ -213,14 +212,12 @@ ul li {
 .skills-flex-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 10px;
-    overflow: hidden;
 }
 .skills-detail{
     text-align: center;
-    margin: 50px;
+    margin: 30px;
     height: auto;
     width: 60%;
 }
@@ -233,10 +230,11 @@ ul li {
     font-size: 35px;
     font-weight: 700;
     color:  rgba(89, 89, 89, 0.6);
+    margin-top: 7%;
 }
 .carousel{
-    height: 50vh;
-    width: 85vw;
+    height: 35vh;
+    width: 55vw;
     margin: 10px;
     background-color: rgba(89, 88, 88, 0.6);
     border-radius: 20px;
@@ -253,11 +251,12 @@ ul li {
     display: flex;
 }
 .carousel-inner .left{
-    flex: 5%;
+    flex: 10%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     display: grid;
     place-items: center;
+    cursor: pointer;
 }
 .carousel-inner .center{
     flex: 90%;
@@ -265,11 +264,12 @@ ul li {
     display: grid;
 }
 .carousel-inner .right{
-    flex: 5%;
+    flex: 10%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     display: grid;
     place-items: center;
+    cursor: pointer;
 }
 
 /* Projects page */
@@ -277,7 +277,6 @@ ul li {
     display: flex;
     flex-direction: column;
     height: 100%;
-    overflow: hidden;
 }
 .header{
     font-family: var(--font-family);
@@ -295,13 +294,14 @@ ul li {
     margin-bottom: 10px;
     width: 50%;
     height: auto;
-    border: 5px solid var(--secondary-text-color);
+    border: 5px solid rgba(255, 255, 255, 0.15);
 }
 .project-title{
     font-size: 40px;
 }
 .github-link{
-    color: rgba(234, 114, 142, 0.6);
+    color: rgba(234, 114, 142, 0.653);
+    cursor: pointer;
 }
 .project-discription{
     margin: 8px;
@@ -323,13 +323,12 @@ ul li {
     margin: 3%;
 }
 
-/* Education  and Experience page */
+/* Experience page */
 .experience-flex-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 .experience-title{
     display: flex;
@@ -349,7 +348,7 @@ ul li {
     outline:none;
     height: 50px;
     width: 20vw;
-    margin: 10px;
+    margin: 10px 0 0 100px;
     color: rgba(234, 114, 142, 0.531);
 }
 .experience-details{
@@ -357,10 +356,11 @@ ul li {
     flex-direction: column;
     align-items:center;
     border: 2px solid #e7e7e7;
-    width: 50%;
+    width: auto;
     height: auto;
     padding: 5%;
     margin-left:50px ;
+    margin-right:100px ;
 }
 .experience-card{
     padding:10px;
@@ -420,7 +420,6 @@ a:active {
 .contact-container{
     display: flex;
     flex-direction: column;
-    height: 100vh;
     padding: 50px 250px;
     overflow: hidden;
 }
