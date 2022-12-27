@@ -279,30 +279,29 @@ ul li {
     height: 100%;
     overflow: hidden;
 }
-.project-container{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    
-}
-.title{
-    text-align: center;
-    text-shadow: 2px 2px var(--secondary-text-color);
-    height: auto;
-    width: auto;
+.header{
+    font-family: var(--font-family);
+    color: var(--secondary-text-color);
+    font-size: 100px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    padding: 50px;
     border-bottom: 5px solid var(--secondary-text-color);
-    margin: 4%;
-    padding: 5%;
-    font-size: 50px;
 }
 .project{
     padding: 30px;
-    margin: 1%;
-    height: 75%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 50%;
+    height: auto;
+    border: 5px solid var(--secondary-text-color);
 }
 .project-title{
     font-size: 40px;
+}
+.github-link{
+    color: rgba(234, 114, 142, 0.6);
 }
 .project-discription{
     margin: 8px;
@@ -311,10 +310,17 @@ ul li {
     text-align: left;
     margin: 3%;
 }
-.built{
+.in-progress{
+    color: rgba(234, 114, 142, 0.4);
+}
+.built-with{
     font-size: 15px;  
     text-align: left;
-    margin-top: 10%
+    margin-top: 10%;
+    color:rgba(234, 114, 142, 0.6);
+    padding: 2px;
+    text-align: left;
+    margin: 3%;
 }
 
 /* Education  and Experience page */
@@ -399,12 +405,12 @@ a{
   
 /* visited link */
 a:visited {
-    color:var(--secondary-text-color);
+    color:var(--main-text-color);
 }
   
 /* mouse over link */
 a:hover {
-    color:(--secondary-text-color);
+    color:var(--main-text-color);
 }
 a:active {
     text-decoration: underline;
