@@ -348,7 +348,7 @@ ul li {
     outline:none;
     height: 50px;
     width: 20vw;
-    margin: 10px 0 0 100px;
+    margin: 10px 0 0 150px;
     color: rgba(234, 114, 142, 0.531);
 }
 .experience-details{
@@ -359,8 +359,8 @@ ul li {
     width: auto;
     height: auto;
     padding: 5%;
-    margin-left:50px ;
-    margin-right:100px ;
+    margin-left:100px ;
+    margin-right:150px ;
 }
 .experience-card{
     padding:10px;
