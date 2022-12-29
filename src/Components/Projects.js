@@ -4,8 +4,8 @@ import '../Styling/Components.css';
 export default function Projects() {
     return(
       <div className="all-bg project-flex-container">
-        <div>
-          <h1 className="header">Personal Projects</h1>
+        <div className="header">
+          <h1>Personal Projects</h1>
         </div>
         <div className="project-container">
           <div className="project">
