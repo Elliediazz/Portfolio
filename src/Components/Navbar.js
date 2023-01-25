@@ -24,7 +24,7 @@ export default function NavBar() {
 				      <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">					
 					      <a href="/skills" class="dropdown-item">Skills and Languages</a>
 					      <a href="/projects" class="dropdown-item">Personal Projects</a>
-					      <a href="/projects" class="dropdown-item">Bootcamp Projects</a>
+					      {/* <a href="/projects" class="dropdown-item">Bootcamp Projects</a> */}
               </div>
             </div>
             <Nav.Link class="btn text-light" href="/experience">Experience</Nav.Link>
