@@ -35,5 +35,3 @@ function Carousel() {
 
 export default Carousel
 
-
-// rfce enter

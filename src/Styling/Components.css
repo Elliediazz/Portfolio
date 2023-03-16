@@ -46,7 +46,7 @@
     padding: 20px 15px 14px 15px;
     height: 50px;
     width: 200px;
-    border: 2px solid var(--main-text-color);
+    /* border: 2px solid var(--main-text-color); */
 }
 .icon{
     height: 50px;
