@@ -16,7 +16,7 @@ function Carousel() {
         >
           <div className='left' 
             onClick={()=> {
-              currImg > 0 && setCurrImg(currImg-1)
+              setCurrImg(currImg === 0 ? images.length-1  : currImg - 1)
             }}>
             <ArrowBackIOSIcon style={{ fontSize:40 }}/>
           </div>
@@ -24,7 +24,7 @@ function Carousel() {
             {/* <h1>{images[currImg].title}</h1> */}
           </div>
           <div className='right'onClick={()=> {
-              currImg < images.length-1 && setCurrImg(currImg + 1)
+              setCurrImg(currImg === images.length-1 ? 0 : currImg + 1)
             }}>
             <ArrowForwardIOSIcon style={{ fontSize:40 }}/>
           </div>
