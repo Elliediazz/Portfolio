@@ -9,6 +9,16 @@ export default function Projects() {
         </div>
         <div className="project-container">
           <div className="project">
+            <h2 className="project-title">Pops Pizzeria</h2>
+            <a className='icon' href="https://github.com/Elliediazz/pops-pizzeria-client" target="_blank" rel="noreferrer" class="nav-item nav-link"><ion-icon size="large" name="logo-github"></ion-icon></a>
+            <h3 className="project-discription">
+              An application developed for a client icluding a simple and intuitive navigation menu, with clear sections for the menu, ordering online, catering services, and location information. (Still in Progress)
+            </h3>
+            <h4 className="built-with">
+              Technologies Used: HTML, CSS, Javascript, React.js
+            </h4>
+          </div>
+          <div className="project">
             <h2 className="project-title">Where to Eat?</h2>
             <a className='icon' href="https://github.com/Elliediazz/Final-Project" target="_blank" rel="noreferrer" class="nav-item nav-link"><ion-icon size="large" name="logo-github"></ion-icon></a>
             <h3 className="project-discription">
@@ -16,17 +26,6 @@ export default function Projects() {
             </h3>
             <h4 className="built-with">
               Technologies Used: HTML, CSS, Javascript, React.js, Express, Node.js, MongoDB, Google API
-            </h4>
-          </div>
-
-          <div className="project">
-            <h2 className="project-title">Sith World</h2>
-            <a className='icon' href="https://github.com/Elliediazz/JediBook-Client" target="_blank" rel="noreferrer" class="nav-item nav-link"><ion-icon size="large" name="logo-github"></ion-icon></a>
-            <h3 className="project-discription">
-              An app that allows users to search through the Planets, Characters, and Starships associated with the Star Wars saga. Users can also create their own Avatars and maintain their characters through their personal accounts. Built using the Star Wars API. (Still in Progress)
-            </h3>
-            <h4 className="built-with">
-              Technologies Used: HTML, CSS, Javascript, React.js, Express, Node.js, Mongoose, Mongo DB, SWAPI
             </h4>
           </div>
           <div className="project">
