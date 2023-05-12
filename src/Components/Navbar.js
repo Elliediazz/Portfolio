@@ -32,7 +32,7 @@ export default function NavBar() {
             <Nav.Link class="btn text-light" href="/contact">Contact</Nav.Link>
             <Nav.Link class="btn text-light" target="_blank" rel="noopener noreferrer" href={PDF}>Resume</Nav.Link>
           </Nav>
-          <div className='icons'>
+          <div className='icons' id='icons'>
 			      <a className='icon' href="https://www.linkedin.com/in/elliediaz/" target="_blank" rel="noreferrer" class="nav-item nav-link"><ion-icon size="large" name="logo-linkedin"></ion-icon></a>
 			      <a className='icon' href="https://github.com/Elliediazz" target="_blank" rel="noreferrer" class="nav-item nav-link"><ion-icon size="large" name="logo-github"></ion-icon></a>
 			      <a className='icon' href="https://twitter.com/diazzellie" target="_blank" rel="noreferrer" class="nav-item nav-link"><ion-icon size="large" name="logo-twitter"></ion-icon></a>		

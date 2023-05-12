@@ -27,8 +27,8 @@ export default function About (){
                         </ul>
                     </div>
                 </div>
-                <div>
-                    <img className="profilepicabout" src={ProfilePic} alt="ProfilePicture"/>
+                <div className="profile-pic-about-container">
+                    <img className="profile-pic-about" src={ProfilePic} alt="ProfilePicture"/>
                 </div>
         </div>
     )

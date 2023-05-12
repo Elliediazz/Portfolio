@@ -11,19 +11,21 @@
     background-color: var(--main-bg-color) ;
     background-size: cover;
     background-repeat:repeat;
-    overflow: hidden;
     color: var(--main-text-color);
     font-family: var(--font-family);
     font-weight: 600;
-    min-width: 100vw;
-    min-height: 95vh;
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+
 }
 
 /* Navbar */
 .navbar{
     background-color: var(--secondary-bg-color);
     color: var(--main-text-color) ;
-    width: 100vw;
+    width: 100%;
     font-family: var(--font-family);
     font-weight: 500;
 }
@@ -50,8 +52,13 @@
 }
 .icon{
     height: 50px;
-
 }
+@media (max-width: 991px) {
+    #icons{
+        display: none;
+    }
+}
+
 /* Home page */
 .home-main-div{
     margin: 0;
@@ -155,22 +162,27 @@
 
 /* About page */
 .about-flex-container {
-    padding: 50px;
+    padding-top: 25px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.profilepicabout{
+.profile-pic-about-container{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.profile-pic-about{
     height: 400px ;
     width: 370px;
-    margin-right: 90px;
-    margin-top: 15%;
     border-radius: 10px;
     border: 5px solid var(--secondary-text-color);
 }
 .about-info{
-    height: 300px ;
+    height: auto ;
     width: 60%;
     margin: 0px 100px 100px 100px ;
     text-align: left; 
@@ -193,6 +205,8 @@
 .about-info p{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: auto;
     width: 50vw;
     font-size: 17px;
@@ -206,6 +220,29 @@
 ul li {
     list-style-type: circle;
     font-size: 17px;
+}
+@media (max-width: 991px) {
+    .about-flex-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: auto;
+        font-size: 17px;
+        margin: 30px;
+    }
+    .profile-pic-about-container{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
 }
 
 /* Skills page */
