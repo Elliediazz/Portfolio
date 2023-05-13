@@ -467,20 +467,20 @@ ul li {
 
 }
 .experience-card p{
-    margin:50px 20px 40px 20px
+    margin:50px 20px 50px 20px
 
 }
 .expereince-skills{
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .expereince-skills li {
     list-style-type: circle;
     font-size: 17px;
     text-align: left;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 @media (max-width: 991px) {
     .experience-flex-container{
