@@ -258,7 +258,10 @@ ul li {
         height: auto;
         width: auto;
         font-size: 17px;
-        margin: 30px;
+        margin: 25px;
+    }
+    .about-info p{
+        width: 80vw;
     }
     .profile-pic-about-container{
         display: flex;
@@ -269,7 +272,7 @@ ul li {
 }
 @media (max-width: 400px) {
     .about-info p{
-        width: 100vw;
+        width: 95vw;
         padding: 10px;
     }
 }
