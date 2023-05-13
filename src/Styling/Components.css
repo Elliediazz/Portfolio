@@ -267,7 +267,7 @@ ul li {
         margin: 10px;
     }
 }
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     .about-info p{
         width: 100vw;
         padding: 10px;
