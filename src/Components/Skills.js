@@ -13,7 +13,7 @@ export default function Skills(){
            <div className="skills-header">
                 <h2>Below are some of the skills I have aquired during my time in the industry:</h2>
            </div>
-            <div>
+            <div className="carousel-container">
                 <Carousel />
             </div>
         </div>

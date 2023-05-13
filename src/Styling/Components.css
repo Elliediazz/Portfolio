@@ -334,6 +334,20 @@ ul li {
     cursor: pointer;
 }
 
+@media (max-width: 991px) {
+    .carousel{
+        width: 80vw;
+        margin: 25px;
+    }
+    .skills-detail{
+        text-align: center;
+        margin: 30px;
+        height: auto;
+        width: 90%;
+    }
+}
+
+
 /* Projects page */
 .project-flex-container{
     display: flex;
@@ -343,16 +357,19 @@ ul li {
 .header h1{
     font-family: var(--font-family);
     color: var(--secondary-text-color);
-    font-size: 130px;
+    font-size: 100px;
     font-weight: 600;
     padding: 50px;
+}
+.project-container{
+    margin: 50px;
 }
 .project{
     padding: 30px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 50%;
+    width: 85%;
     height: auto;
     border: 5px solid rgba(255, 255, 255, 0.15);
 }
@@ -383,6 +400,17 @@ ul li {
     text-align: left;
     margin: 3%;
 }
+@media (max-width: 991px) {
+    .header h1{
+        font-size: 80px;
+    }
+    .project-container{
+        margin: 40px;
+    }
+    .project{
+        width: 100%;
+    }
+}
 
 /* Experience page */
 .experience-flex-container{
@@ -390,15 +418,15 @@ ul li {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 15px;
 }
 .experience-title{
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
-    /* border: 2px solid #e7e7e7; */
+    align-items:center;
+    justify-content: center;
     width: 25%;
-    height: 90vh;
-    padding-top: 10%;
+    height: 90vh
 }
 .experience-title button{
     background-color:#35353571;
@@ -409,7 +437,7 @@ ul li {
     outline:none;
     height: 50px;
     width: 20vw;
-    margin: 10px 0 0 150px;
+    margin: 10px ;
     color: rgba(234, 114, 142, 0.531);
 }
 .experience-details{
@@ -417,10 +445,9 @@ ul li {
     flex-direction: column;
     align-items:center;
     border: 2px solid #e7e7e7;
-    width: auto;
+    width: 100%;
     height: auto;
     padding: 5%;
-    margin:0 100px 15px 150px;
 }
 .experience-card{
     padding:10px;
@@ -463,10 +490,17 @@ ul li {
     .experience-title{
         display: flex;
         flex-direction: column;
-        align-items:flex-end;
-        width: 25%;
-        height: 90vh;
+        width: auto;
+        height: auto;
+        margin: 50px;
     }
+    .experience-title button{
+        height: 50px;
+        width: 50vw;
+        margin: 10px ;
+        color: rgba(234, 114, 142, 0.531);
+    }
+
 }
 
 /* Extras */
