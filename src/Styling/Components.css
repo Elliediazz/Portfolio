@@ -22,15 +22,6 @@
 }
 
 /* Navbar */
-@media only screen and (max-width: 480px) {
-    .navbar{
-        background-color: var(--secondary-bg-color);
-        color: var(--main-text-color) ;
-        width: 100vw;
-        font-family: var(--font-family);
-        font-weight: 500;
-    }
-}
 .navbar{
     background-color: var(--secondary-bg-color);
     color: var(--main-text-color) ;
@@ -63,8 +54,15 @@
     height: 50px;
 }
 @media (max-width: 991px) {
-    #icons{
-        display: none;
+    .navbar-collapse{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (max-width: 777px) {
+    .navbar-collapse{
+        display: flex;
+        flex-direction: column;
     }
 }
 
