@@ -269,7 +269,8 @@ ul li {
 }
 @media (max-width: 390px) {
     .about-info p{
-        width: 95vw;
+        width: 100vw;
+        padding: 10px;
     }
 }
 
