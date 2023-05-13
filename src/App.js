@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom"
 
 import NavBar from './Components/Navbar';
 import Home from './Components/Home';
@@ -8,6 +8,8 @@ import ContactForm from './Components/Contact';
 import Experience from './Components/Experience';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
+import Error from './Components/Error'
+
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path='/skills' element={<Skills />}/>
         <Route path='/experience' element={<Experience />}/>
         <Route path='/contact' element={<ContactForm />}/>
+        <Route path='/error' element={<Error />}/>
+        <Route path='*' element={<Navigate to='/error' />} />
       </Routes>
      </Router>
     </div>

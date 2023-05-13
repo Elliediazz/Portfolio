@@ -577,3 +577,22 @@ a:active {
       }
 }
 
+/* Error Page */
+.error-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+.error-page h2{
+    font-size: 75px;
+}
+.error-page p{
+    font-size: 20px;
+}
+.error-btn{
+    width: 100px;
+    color: #000000;
+}
+
