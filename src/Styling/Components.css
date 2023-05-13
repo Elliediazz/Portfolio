@@ -504,6 +504,10 @@ ul li {
     .experience-title button{
         width: 40%; 
     }
+    .experience-card p{
+        margin:50px 0px 50px 0px
+    
+    }
 }
 
 /* Extras */
