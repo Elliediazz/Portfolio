@@ -267,6 +267,11 @@ ul li {
         margin: 10px;
     }
 }
+@media (max-width: 390px) {
+    .about-info p{
+        width: 95vw;
+    }
+}
 
 /* Skills page */
 .skills-flex-container {
@@ -364,10 +369,9 @@ ul li {
 }
 .project{
     padding: 30px;
-    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 85%;
+    width: 100%;
     height: auto;
     border: 5px solid rgba(255, 255, 255, 0.15);
 }
@@ -380,7 +384,7 @@ ul li {
     text-decoration: none;
 }
 .project-discription{
-    margin: 8px;
+
     padding: 2px;
     font-size: 20px;
     text-align: left;
@@ -403,7 +407,7 @@ ul li {
         font-size: 80px;
     }
     .project-container{
-        margin: 40px;
+        margin: 10px;
     }
     .project{
         width: 100%;
