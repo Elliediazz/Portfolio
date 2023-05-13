@@ -22,6 +22,15 @@
 }
 
 /* Navbar */
+@media only screen and (max-width: 480px) {
+    .navbar{
+        background-color: var(--secondary-bg-color);
+        color: var(--main-text-color) ;
+        width: 100vw;
+        font-family: var(--font-family);
+        font-weight: 500;
+    }
+}
 .navbar{
     background-color: var(--secondary-bg-color);
     color: var(--main-text-color) ;
@@ -64,7 +73,7 @@
     margin: 0;
     padding:0;
     font-family: var(--font-family);
-    width: 100vw;
+    width: 100%;
     height:100vh;
 }
 .background-top{
@@ -84,6 +93,9 @@
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     text-align: center;
+}
+.content-header{
+    margin-bottom: 40px;
 }
 .content h1 {
     color: whitesmoke;
@@ -115,6 +127,7 @@
     }
 }
 .info-container{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -159,6 +172,17 @@
     background: #5f5c5f95;
     color: #e7e7e7;
 }
+@media (max-width: 575px) {
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .content h1{
+        font-size: 40px;
+    }
+}
 
 /* About page */
 .about-flex-container {
@@ -170,7 +194,7 @@
 
 .profile-pic-about-container{
     display: flex;
-    align-items:flex-start;
+    align-items:center;
     justify-content: center;
     margin-right: 50px;
 }
@@ -184,7 +208,7 @@
 .about-info{
     height: auto ;
     width: 60%;
-    margin: 0px 100px 100px 100px ;
+    margin: 0px 50px 0px 100px ;
     text-align: left; 
 }
 .about-info h1{
@@ -242,6 +266,7 @@ ul li {
         display: flex;
         align-items:center;
         justify-content: center;
+        margin: 10px;
     }
 }
 
@@ -428,6 +453,21 @@ ul li {
     text-align: left;
     margin-left: 50px;
 }
+@media (max-width: 991px) {
+    .experience-flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .experience-title{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end;
+        width: 25%;
+        height: 90vh;
+    }
+}
 
 /* Extras */
 .button4 {
@@ -457,5 +497,41 @@ a:active {
     flex-direction: column;
     padding: 50px 250px;
     overflow: hidden;
+}
+@media (max-width: 991px) {
+    .contact-container {
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+      }
+      
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      .form-row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .col {
+        flex: 1;
+        margin-right: 10px;
+      }
+      
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+      }
+      
+      .btn {
+        width: 100%;
+      }
 }
 

@@ -21,28 +21,28 @@ export default function ContactForm(){
           <br></br>
           <br></br>
           <form target="_blank" action="https://formsubmit.co/elliediaz1204@gmail.com" method="POST">
-            <div class="form-group">
-              <div class="form-row p-1">
-                <div class="col">
-                  <input type="text" name="name" class="form-control" placeholder="First Name" required/>
+            <div className="form-group">
+              <div className="form-row p-1">
+                <div className="col">
+                  <input type="text" name="name" className="form-control" placeholder="First Name" required/>
                 </div>
-                <div class="col">
-                  <input type="text" name="lastname" class="form-control" placeholder="Last Name" required/>
+                <div className="col">
+                  <input type="text" name="lastname" className="form-control" placeholder="Last Name" required/>
                 </div>
               </div>
-              <div class="form-row p-1">           
-                <div class="col">
-                  <input type="email" name="email" class="form-control" placeholder="Email" required/>
+              <div className="form-row p-1">           
+                <div className="col">
+                  <input type="email" name="email" className="form-control" placeholder="Email" required/>
                 </div>
-                <div class="col">
-                  <input type="number" name="phone" class="form-control" placeholder="Phone Number"/>
+                <div className="col">
+                  <input type="number" name="phone" className="form-control" placeholder="Phone Number"/>
                 </div>
               </div>
             </div>
-            <div class="form-group">
-              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            <div className="form-group">
+              <textarea placeholder="Your Message" className="form-control" name="message" rows="10" required></textarea>
             </div>
-            <button type="submit" class="btn btn-lg btn-secondary btn-block">Send</button>
+            <button type="submit" className="btn btn-lg btn-secondary btn-block">Send</button>
           </form>
       </div>
   )
