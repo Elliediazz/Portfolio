@@ -495,18 +495,15 @@ ul li {
     }
     .experience-title{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: row;
         width: auto;
         height: auto;
-        margin: 50px;
+        margin-bottom: 10px;
     }
     .experience-title button{
-        height: 50px;
-        width: 50vw;
-        margin: 10px ;
-        color: rgba(234, 114, 142, 0.531);
+        width: 40%; 
     }
-
 }
 
 /* Extras */
